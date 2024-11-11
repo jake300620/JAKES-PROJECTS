@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAKE'S BAND</title>
+    <link rel="stylesheet" href="band project.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <script src="w3.js"></script>
+    <script defer src="band project.js"></script>
+</head>
+<body>
+    <div class="head">
+      <div class="menu">
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </div>
+      
+        <ul>
+            <li><a href="#location">HOME</a></li>
+            <li><a href="#band">BAND</a></li>
+            <li><a href="#tour">TOUR</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="">MORE</a></li>
+        </ul>
+    </div>
+    <div id="location">
+      <div class="img">
+        <img src="chicago.jpg" width="100%" class="images">
+      <div class="imgtxt">
+        <h3>Chicago</h3><br>
+        <p>Thank you chicago for welcoming us into your beautiful city</p>
+      </div> 
+   </div>
+
+ <div class="img">
+        <img src="la.jpg" width="100%" class="images">
+      <div class="imgtxt">
+        <h3>LOS ANGELES</h3><br>
+        <p>The city of angels was so wonderful,its name preceds it</p>
+      </div> 
+       </div>
+       <div class="img">
+      <img src="ny.jpg" width="100%" class="images">
+      <div class="imgtxt">
+        <h3>NEW YORK</h3><br>
+        <p>New york know how to party!!!!</p>
+      </div> 
+    </div>
+    </div>
+   
+    <div class="bandwrt" id="band">
+      <h1>THE BAND</h1> <br>
+      <p><i>We love music</i></p> <br>
+      <p class="lorem">This is Jake's fictional band website, that's he's using to get a hold of html css and javascript. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+         deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="tour" id='tour'>
+          <h2 style= "font-size: 30px;">TOUR DATES</h2> <br>
+            <p class="rem"><i ><b> Remember to book your tickets!</b></i></p> <br>
+            <div class="sldout">
+             <div class="wrds">September <span class="sldut">Sold out</span></div>  <hr> <br>
+             <div class="wrds">October<span class="sldut">Sold out</span></div><hr> <br>
+             <div class="wrds"> November <span class="three">3</span></div>
+            </div>
+            <div class="tourlctn">
+              <div class="tor">
+                <img src="newyork2.jpg" class="trlcn">
+                <div class="wrtn">
+                 <p class="ph"><b>New York</b>  </p> <br>
+                 <p>Friday June 30th 2023</p> <br>
+                 <p class="wrtnp">Come get your tickets immediately!!!!!</p> <br>
+                 <button class="buytics" id="buytic">Buy Tickets</button>
+                </div>
+              </div>
+              <div class="tor">
+                <img src="paris.jpg" class="trlcn">
+                <div class="wrtn">
+                  <p class="ph"><b>Paris</b>  </p> <br>
+                  <p>Tuesday July 4th 2023</p> <br>
+                  <p class="wrtnp">Get your tickets here, we're going to be in paris!!</p> <br>
+                  <button class="buytics" id="buytica">Buy Tickets</button>
+                </div>
+              </div>
+              <div class="tor">
+                <img src="sanfran.jpg" class="trlcn">
+                <div class="wrtn">
+                  <p class="ph"><b>San Fransisco </b> </p> <br>
+                  <p> Saturday 8th July 2023</p> <br>
+                  <p class="wrtnp"> We're going to be in San Fransisco!!</p> <br>
+                  <button class="buytics" id="buytics">Buy Tickets</button>
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="contact" id="contact">
+      <h2 style= "font-size: 30px;">CONTACT</h2> <br>
+      <p class="fan"><i>Fan? Drop a note</i> </p>
+    </div>
+    <div class="cntct">
+      <div class="info">
+        <p>Abuja, Nigeria</p> 
+        <p>Phone: +2349003467820</p> 
+        <p>Email:Theband@gmail.com</p>
+      </div>
+     
+       <div class="frm">
+        <div class="inpt">
+          <form action="">
+            <input type="text" placeholder="Name" class="nm" required> 
+            <input type="email" placeholder="Email" class="em" required>
+          </div>
+           <input type="text" placeholder="Message" class="msg"> <br><br>
+           <input type="submit" class="snd" value="SEND">
+  
+         </div>
+          </form>
+
+  </div>
+  <div class="here">
+    <div class="myModal" id="myModal">
+      <div class="tics">
+        <div class="times">
+        <button class="tm"><i class="fa fa-times" id="closeButton"></i></button> 
+        </div> 
+         <h2>Tickets</h2>
+     <div class="tik">
+      <p class="per">Tickets, #15000 per head.</p> <br>
+      <input type="text" placeholder="How many people?" class="hwo">  <br>
+      <p>Send To</p> <br>
+      <input type="email" placeholder="Enter required Email" class="hwo"> <br>
+      <button class="pay">PAY</button>
+      <button class="cls" id="secondclsbutton">Close</button>
+      <p class="need">Need <a href="#">help?</a></p>
+      </div>
+      </div>
+  
+     </div>
+  </div>
+  </div>
+   
+  
+  
+  <img src="map.jpg" width="100%" class="endimg">
+  <p class="end">Powered by Jake &#128526;</p>
+ 
+    <script>
+        w3.slideshow(".img", 4000);
+    </script>
+</body>
+</html>
