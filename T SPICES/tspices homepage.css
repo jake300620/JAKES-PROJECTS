@@ -1,0 +1,80 @@
+.favorite{
+    text-align: center;
+}
+.register{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    border-radius:20px ;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: white;
+    
+    
+}
+.login{
+    background-color: rgb(255, 199, 199);
+    width: 100%;
+    border-radius:20px ;
+    color: red;
+    outline:none;
+    cursor: pointer;
+    height: 50px;
+    font-size: 20px;
+    border-color: white;
+}
+.btn{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom:5px;
+}
+.order{
+    color: rgb(158, 157, 157);
+}
+.img{
+    margin: auto;
+    margin-left: 35%;
+    width: 700px;
+    height: inherit;
+
+}
+@media(max-width:700px){
+    .favorite{
+        text-align: center;
+    }
+    .register{
+        background-color: rgb(255, 0, 0);
+        width: 100%;
+        border-radius:20px ;
+        color: white;
+        border-color: white;
+        cursor: pointer;
+        height: 50px;
+        font-size: 20px;
+        box-shadow: white;
+        
+        
+    }
+    .login{
+        background-color: rgb(255, 199, 199);
+        width: 100%;
+        border-radius:20px ;
+        color: red;
+        outline:none;
+        cursor: pointer;
+        height: 50px;
+        font-size: 20px;
+        border-color: white;
+    }
+    .btn{
+        margin-top: 75px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom:5px;
+    }
+    p{
+        font-size: x-large;
+    }
+}

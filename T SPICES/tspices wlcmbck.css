@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    top: 0;
+}
+.head{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p{
+    color: rgb(158, 157, 157);
+
+}
+input{
+    width: 95%;
+    height: 40px;
+    background-color: rgb(231, 226, 217);
+    outline: none;
+    border-collapse: collapse;
+    border: none;
+    border-radius: 5px;
+    padding-left:10px ;
+    margin-top: 5px;
+     text-decoration: solid;
+     padding-left: 15px;
+     padding-right: 15px; 
+}
+.sign{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+}
+.form{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+   
+}
+.forgot{
+    margin-top: 10px;
+    color: red;
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: blue;
+}
+.register{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    border-radius:20px ;
+    color: white;
+    outline:none;
+    cursor: pointer;
+    height: 50px;
+    font-size: 20px;
+    margin: auto;
+    
+}
+.button{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.have{
+    margin-top: 20px;
+    text-align: center;
+}
+.signin{
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}
+.or{
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    margin:  auto;
+
+}
+.or::before{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 45%;
+    position: relative;
+    background:  rgb(158, 157, 157); 
+    top: 10px;
+    left: 0;
+    
+
+}
+.or::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 45%;
+    position:absolute;
+    background:  rgb(158, 157, 157); ;
+    top: 10px;
+    right: 0;
+    
+}
+a:link{
+    text-decoration: none;
+}
+.google{
+    text-align: center;
+    border-collapse: collapse;
+    border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(161, 160, 160);
+    width: 40%;
+    margin:auto;
+    border: none;
+    cursor: pointer;
+}
+.ggl{
+    color: rgb(158, 157, 157);
+}
+.apple{
+    
+        text-align: center;
+        border-collapse: collapse;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+       box-shadow: 2px 2px 4px rgb(161, 160, 160);
+       width: 40%;
+        width: 40%;
+        margin: auto;
+        cursor: pointer;
+    }
+    .gapp{
+        display: block;
+    }
+
+@media(max-width:700px){
+    *{
+        margin: 0;
+        top: 0;
+    }
+    .head{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    p{
+        color: rgb(158, 157, 157);
+    
+    }
+    input{
+        width: 90%;
+        height: 40px;
+        background-color: rgb(231, 226, 217);
+        outline: none;
+        border-collapse: collapse;
+        border: none;
+        border-radius: 5px;
+        padding-left:10px ;
+        margin-top: 5px;
+         text-decoration: solid;
+         padding-left: 15px;
+         padding-right: 15px; 
+    }
+    .sign{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 20px;
+    }
+    .form{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+       
+    }
+    .forgot{
+        margin-top: 10px;
+        color: red;
+        float: right;
+        margin-right: 20px;
+        cursor: pointer;
+    
+    }
+    .forgot:hover{
+        text-decoration: underline;
+    }
+    a:visited{
+        color: blue;
+    }
+    .have{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .google{
+        text-align: center;
+        border-collapse: collapse;
+        border-bottom-left-radius: 10px;
+         border-bottom-right-radius: 10px;
+        box-shadow: 2px 2px 4px rgb(161, 160, 160);
+        width: 60%;
+        margin: auto;
+        border: none;
+        cursor: pointer;
+    }
+    .ggl{
+        color: rgb(158, 157, 157);
+    }
+    .apple{
+        
+            text-align: center;
+            border-collapse: collapse;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+           box-shadow: 2px 2px 4px rgb(161, 160, 160);
+           width: 60%;
+            margin:auto;
+            cursor: pointer;
+        }
+        .register{
+            background-color: rgb(255, 0, 0);
+            width: 100%;
+            border-radius:20px ;
+            color: white;
+            outline:none;
+            cursor: pointer;
+            height: 50px;
+            font-size: 20px;
+            margin: auto;
+            padding-right: 15px;
+            
+        }
+        .or{
+            text-align: center;
+            position: relative;
+            max-width: 500px;
+            margin:  auto;
+        
+        }
+        .or::before{
+            content: " ";
+            display: block;
+            height: 2px;
+            width: 41%;
+            position: relative;
+            background:  rgb(158, 157, 157); 
+            top: 10px;
+            left: 0;
+            margin-left: 5px;
+            
+        
+        }
+        .or::after{
+            content: " ";
+            display: block;
+            height: 2px;
+            width: 41%;
+            position:absolute;
+            background:  rgb(158, 157, 157); ;
+            top: 10px;
+            right: 0;
+            padding-right: 10px;
+            
+        }
+}
