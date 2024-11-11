@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #eee;
+    font-family: 'Lato', sans-serif;
+}
+.head{
+    position:fixed;
+    z-index: 2;
+    background-color: #eee;
+    width: 100%;
+    
+}
+
+h1{
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-weight: 5;
+
+}
+.feat ul li{
+    list-style:none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 25px;
+    color: black;
+    font-weight:lighter;
+}
+.feat{
+    margin-top: 0;
+    margin-right: 50px;
+    float: right;
+}
+.rest{
+margin: auto;
+z-index: -1;
+box-sizing: border-box;
+margin-bottom: 40px;
+}
+.price h2{
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+   
+
+}
+.input{
+margin: auto;  
+padding-left: 40%;
+padding-right: 40%;  
+}
+.input input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.input  .button{
+    background-color:#f1c40f ; 
+    width: 150px;
+    margin-left: 50px;
+    height: 30px;
+    border: none;
+    transition: 1s;
+    border-radius: 3px;
+    text-decoration: solid;
+    cursor: pointer;
+    font-weight: 900;
+    margin-bottom:70px ;
+
+
+}
+.button:hover{
+    background-color: #e0921c;
+}
+.text{
+    margin: auto;
+    box-sizing: border-box;
+    width: 80%;
+    text-align: left;
+    padding-left: 15%;
+    justify-content: space-between;
+}
+.trombone{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.trombone .tenor{
+    width: 30%;
+    border: 1px solid black;
+    height: 45vh;
+    margin: auto;
+    text-align: center;
+    
+}
+.tenor h4{
+    background-color: #d8d5d5;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.tenor .button{
+    background-color:#f1c40f ; 
+    width: 70px;
+    margin-left: 25px;
+    height: 30px;
+    border: none;
+    transition: 1s;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom:70px ;
+    align-self: center;
+}
+.button:hover{
+    background-color: #e0921c;;
+}
+.footer{
+    width: 80%;
+    background-color: #e4e2e2;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    padding-bottom:20px ;
+}
+.fear{
+    margin-right: 30px;
+
+}
+.fear ul li{
+    list-style:none;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: black;
+    text-align: right;   
+}
+.fear p{
+    color:rgb(105, 104, 104);
+    padding-right: 10px;
+    font-size: 13px;
+}
