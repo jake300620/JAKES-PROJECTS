@@ -1,0 +1,125 @@
+.anime{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    float: left;
+    
+}
+h1{
+    text-align: center;
+}
+.type{
+    text-align: center;
+}
+.animerec{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin: 10px;
+    position:relative;
+    overflow: hidden;
+    
+}
+.animerec img{
+    width: 100%;
+}
+.desc{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.desc:hover{
+     background: rgba(60, 60, 97,0.7);
+}
+.animerec h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.animerec:hover h3 {
+    bottom: 50%;
+    opacity: 1;
+}
+p{
+    font-size: 20px;
+    
+}
+@media(max-width:700px){
+    .anime {
+        width: 50%;
+        margin-left:100px;
+        text-align: center;
+        float: left;
+    }
+    .anime p{
+        padding: none;
+        margin: none;
+    }
+
+    .animerec{
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        
+    }
+    .animerec img{
+        width: 100%;
+    }
+    .desc{
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+    }
+    .desc:hover{
+         background: rgba(60, 60, 97,0.7);
+    }
+    .animerec h3{
+        width: 50%;
+        font-weight: 500;
+        color: white;
+        font-size: 26px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+        text-align: center;
+    }
+    .animerec:hover h3{
+        bottom: 30%;
+        opacity: 1;
+    }
+    p{
+        font-size: 15px;
+        color: white;
+        
+    }
+    h1{
+        text-align: center;
+        margin-right: 20px;
+        color: white;
+    }
+    .type{
+        text-align: center;
+    }
+}
+.numbering{
+    float: left;
+}

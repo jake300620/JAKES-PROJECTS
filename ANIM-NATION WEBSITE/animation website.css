@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0b0b24;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(mangekyosharingan.jpg);
+    background-position: center;
+    background-size:500px;
+    position: relative;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    text-align: right;
+}
+.listlinks ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.listlinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.title{
+    color: white;
+    font-size: xx-large;
+}
+.listlinks ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background:  #1c244b;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.listlinks ul li:hover::after{
+    width: 100%;
+}
+.textbox{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.textbox h1{
+    font-size: 60px;
+
+}
+.textbox p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+}
+.visit{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid  #1c244b;
+    padding: 10px 30px;
+    font-size: 10px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.visit:hover{
+    border: 1px solid #0b0b24;
+    background-color: #1c244b;
+    transition: 1s;
+}
+nav .fa{
+    display: none;
+}
+@media(max-width:820px){
+    .textbox h1{
+        font-size: 20px;
+    }
+    .listlinks ul li{
+        display: block;
+    }
+    .listlinks{
+        position: absolute;
+        background: rgb(13, 13, 51);
+        opacity: 0.9;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .listlinks ul{
+        padding: 30px;
+
+    }
+   
+}
+.goals{
+    margin: 0;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+.topics{
+    display: flex;
+    padding:50px;
+    text-align: center;
+    color: white;
+    justify-content: space-between;
+}
+.goal{
+    flex-basis: 30%;
+    background-color: #0c122c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.goal:hover{
+    box-shadow:0 0 30px 0px rgba(255, 255, 255, 0.2) ;
+}
+@media(max-width:820px){
+    .topics  {
+    
+        flex-direction: column-reverse;
+    }
+
+}
+.contact{
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+}
+.phone{
+    padding: 5px;
+}
+.icons a{
+    padding: 20px;
+    cursor: pointer;
+    font-size: x-large;
+    color: white;
+}

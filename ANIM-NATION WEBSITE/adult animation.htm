@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADULT SECTION</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="adult animation.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <h1 class="title">ADULT SECTION</h1>
+            <div class="listlinks" id="listLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="animation website.htm">HOME</a></li>
+                    <li><a href="anime animationweb.htm"> ANIME</a></li>
+                    <li><a href="childrens animation.htm">CHILDREN'S CARTOONS</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+    </section>
+     <!----JAVASCRIPT for toggle menu-------->
+     <script>
+        var listLinks = document.getElementById("listLinks")
+        function showMenu(){
+            listLinks.style.right ="0";
+        }
+        function hideMenu(){
+            listLinks.style.right ="-200px";
+        }
+
+    </script>
+</body>
+</html>
