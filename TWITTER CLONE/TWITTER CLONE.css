@@ -1,0 +1,277 @@
+
+body{
+    background-color: black;
+    font-size:1.2vw
+}
+@import url(css/all.min.css);
+ 
+.icons{
+    width: 15%;
+     padding: 30px;
+     color: white;
+     border-right-style: solid;
+     border-color: purple;
+     float: left;
+     font-family: Arial Rounded MT Bold;
+     position:fixed;
+     
+}
+
+    input[type=button]{
+        text-align: center;
+        background-color: purple;
+        color: white;
+        padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 4px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  float: none;
+  text-decoration: solid;
+  width: 175px;
+  height: 30px;
+  font-weight: bolder;
+ 
+    }
+.TL{
+    color: white;
+    width: 1500px;
+    border-right-style: solid;
+    border-color: purple;
+    margin-left: 255px;
+    
+    text-align: left; 
+    position:initial;
+     
+}
+
+hr{
+    background-color: purple;
+    cursor: pointer;
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+    border-left:1px solid purple ;
+    border-right: 1px solid purple;
+    
+}
+
+.home,.explore,.noti, .messages, .bm, .list, .profile, .settings{
+    padding: 20px;
+    text-emphasis-style: bold;
+    cursor: pointer;
+}
+.WH{
+    float: left;
+    color: purple;
+    font-size: xx-large;
+    padding: 5px;
+}
+input{
+    color: white;
+    background-color: black;
+    border: none;
+    float: left;
+    padding: 5px;
+    height: 25px;
+}
+input[type=button]{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 8px 16px;
+text-decoration: none;
+margin: 4px 4px;
+cursor: pointer;
+border: none;
+border-radius: 50px;
+float: right;
+text-decoration: solid;
+width: 175px;
+height: 30px;
+font-weight: bolder;
+}
+.hrb{
+    border-top: 5px solid purple;
+    border-bottom: 5px solid purple;
+    border-left: 5px solid purple;
+    border-left: 5px solid purple;
+}
+.janet{
+    border-radius: 70px;
+    height: 70px;
+    width: 70px;
+    float: left;
+    padding: 10px;
+    
+}
+
+.hashtag{
+    color: purple;
+}
+.JUAN{
+    float: left;
+    padding:20px;
+}
+.post1{
+      color: purple;
+}
+.janetandmoyin{
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    float: none;
+    padding: 10px;
+    width: 60%;
+}
+.hr2{
+    background-color: purple;
+    cursor: pointer;
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+    border-left:1px solid purple ;
+    border-right: 1px solid purple;
+    opacity:30%;
+
+}
+.jane:hover{
+ background-color: rgb(26, 25, 25);
+}
+.jane{
+    cursor: pointer;
+}
+.jakenjaph{
+    border-radius: 80px;
+    height: 80px;
+    width:80px;
+    float: left;
+    padding: 10px;
+}
+.jake{
+    float: left;
+    padding:none;
+}
+.jake2:hover{
+    background-color: rgb(26, 25, 25);
+}
+.rickt{
+    border-radius: 70px;
+    height: 70px;
+    width: 70px;
+    float: left;
+    padding: 10px;
+}
+#rickt{
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    float: none;
+    padding: 10px;
+}
+.rick:hover{
+    background-color: rgb(26, 25, 25);
+}
+input[type=search]{
+    background-color: purple;
+}
+.trending{
+    color: #ffffff;
+    width: 500px;
+    text-align: left; 
+    float: left;
+    position: -webkit-sticky;
+    padding-left: 20px;
+    
+}
+.search{
+    float: left;
+    border-radius: 25px;
+    width: 200px;
+    text-align: center;
+    outline: purple;
+    height: 40px;
+    
+}
+input[type=text]{
+    outline: black;
+}
+.row{
+    display: flex;
+    position: static;    
+}
+.searchst{
+    padding-left: 80px;
+    float: left;
+}
+.trends{
+    background-color: rgb(139, 32, 139);
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    height: 305px;
+    -ms-overflow-style: none; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+small{
+    font-size: xx-small;
+}
+.whotofollow{
+    background-color: rgb(139, 32, 139);
+    width: 295px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    height: 265px;
+    
+    float: right;
+
+}
+.wtf1, .wtf2, .wtf3 {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding: none;
+    cursor: pointer;
+
+}
+#follow{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 6px 12px;
+text-decoration: none;
+margin-top: 10px 10px;
+cursor: pointer;
+border: none;
+border-radius: 50px;
+float: right;
+text-decoration: solid;
+width: 70px;
+height: 25px;
+font-weight: bolder;
+
+}
+.trend{
+    -ms-overflow-style: none; scrollbar-width: none;
+    overflow:hidden;
+    
+}
+.whotofollow:hover{
+    background-color: rgb(190, 36, 190);
+}
+#follow:hover{
+    background-color: rgb(161, 31, 161) ;
+}
+.at:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.twit:hover{
+    background-color: rgb(161, 31, 161) ;
+}
+
+
